@@ -20,13 +20,13 @@ gulp.task('html', function () {
 
 //работа с css
 gulp.task('css', function () {
-    gulp.src('./app/*.css')
+    gulp.src('./app/css/*.css')
         .pipe(connect.reload());
 });
 
 //работа с js
 gulp.task('js', function () {
-    gulp.src('./app/*.js')
+    gulp.src('./app/js/*.js')
         .pipe(connect.reload());
 });
 
